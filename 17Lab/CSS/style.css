@@ -15,6 +15,7 @@ body {
 
 a {
     text-decoration: none;
+    color:#e66180
 }
 
 .container {
@@ -38,7 +39,6 @@ nav ul {
 }
 
 nav a {
-    color: #e66180;
     font-weight: bold;
     padding: 0.5rem, 0;
 }
@@ -51,11 +51,26 @@ nav a:hover {
     color: #c6c6c6;
 }
 
+/* Footer */
+footer {
+    background-color: #707da6;
+    padding: 20px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer a:hover {
+    color: #c6c6c6;
+}
+
 /* Mobile website overrides */
 @media (max-width: 768px) {
     .logo h1 {
         font-size: 1.5rem;
     }
+    /* Header */
     nav ul {
         flex-direction: column;
         gap: 1rem;
