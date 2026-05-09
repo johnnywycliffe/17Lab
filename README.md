@@ -36,7 +36,7 @@ The footer contains the following:
 ### Sitemap
 
 17Lab
-├─ Home Page
+├─ Home
 ├─ About
 ├─ Shop
 |  ├─ Product grid
@@ -54,6 +54,10 @@ The footer contains the following:
 - Link to products page
 - Small about us blurb
 
+#### About
+
+A small about page.
+
 #### Products grid
 
 The products page is required to have the following:
@@ -61,3 +65,35 @@ The products page is required to have the following:
 - A search bar
 - A method of sorting the items
 - Items without qty left will be set to 
+
+#### Product Highlight
+
+- Show the selected product
+- Details about product
+- Availability
+- Price
+- Related items (?)
+
+#### Cart
+
+- Show items in order
+- Include price at the bottom
+- Delete/change quantities
+
+#### Contact Us
+
+- Email
+- Phone number (?)
+- Street address
+
+#### Privacy Policy
+
+Include privacy policy
+
+#### Terms and conditions
+
+Include terms and conditions
+
+#### Custom 404
+
+Have UMP 45 glaring at the user
